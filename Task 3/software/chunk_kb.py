@@ -18,7 +18,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 # Пути считаем от расположения скрипта, чтобы не зависеть от cwd.
 SOFTWARE_DIR = Path(__file__).resolve().parent          # tasks/3/software
-REPO_ROOT = SOFTWARE_DIR.parents[2]                     # корень репозитория
+REPO_ROOT = SOFTWARE_DIR.parents[1]                     # корень репозитория
 KB_DIR = REPO_ROOT / "knowledge_base"
 MANIFEST_PATH = SOFTWARE_DIR / "chunks.json"
 
